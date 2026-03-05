@@ -420,7 +420,7 @@ export default function NikkahInvitation() {
           onClick={isExiting ? undefined : handleOpen}
           style={{ width:"min(340px,90vw)", aspectRatio:"340/420", position:"relative" }}>
           <div style={{
-            width:"140%", height:"140%",
+            width:"100%", height:"100%",
             background:`linear-gradient(150deg, #1a1208, ${EMERALD}cc, #120e05)`,
             borderRadius:"12px", border:`2px solid ${GOLD}60`,
             display:"flex", flexDirection:"column", alignItems:"center",
@@ -484,13 +484,15 @@ export default function NikkahInvitation() {
                           margin:"0 0 8px 0", opacity:0.8 }}>
                 Nikkah Invitation
               </p>
-              <p style={{ fontFamily:"'Playfair Display',serif", fontSize:"clamp(20px,7vw,28px)", fontWeight:"700",
+              <div style={{ fontFamily:"'Playfair Display',serif", fontSize:"clamp(14px,4.5vw,20px)", fontWeight:"700",
                           background:`linear-gradient(90deg, ${GOLD_DARK}, ${GOLD_RICH}, ${GOLD_LIGHT}, ${GOLD_RICH}, ${GOLD_DARK})`,
                           backgroundSize:"200% auto",
                           WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", backgroundClip:"text",
-                          animation:"shimmer 3s linear infinite", margin:0 }}>
-                <p style={{ color:GOLD, fontSize:"clamp(20px,7vw,28px)", margin:"0 0 4px 0" }}>Hafiza Zainab Akram</p> & <p style={{ color:GOLD, fontSize:"clamp(20px,7vw,28px)", margin:"0 0 4px 0" }}>Adeel Asghar</p>
-              </p>
+                          animation:"shimmer 3s linear infinite", margin:0, lineHeight:1.5 }}>
+                <span style={{ display:"block" }}>Hafiza Zainab Akram</span>
+                <span style={{ display:"block", fontSize:"clamp(12px,3.5vw,16px)", opacity:0.8 }}>&amp;</span>
+                <span style={{ display:"block" }}>Adeel Asghar</span>
+              </div>
             </div>
 
             <div style={{ display:"flex", alignItems:"center", gap:"8px",
@@ -503,7 +505,7 @@ export default function NikkahInvitation() {
               <div style={{ width:"36px", height:"1px", background:`linear-gradient(to left, transparent, ${GOLD})` }}/>
             </div>
 
-            <div style={{ position:"absolute", bottom:"clamp(14px,3.5vw,24px)", animation:"pulse 1.5s ease-in-out infinite",     bottom: "13px" }}>
+            <div style={{ position:"absolute", bottom:"clamp(14px,3.5vw,24px)", animation:"pulse 1.5s ease-in-out infinite" }}>
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
                 <path d="M12 3v14m0 0l-5-5m5 5l5-5" stroke={GOLD} strokeWidth="1.5"
                   strokeLinecap="round" strokeLinejoin="round" opacity="0.5"/>
