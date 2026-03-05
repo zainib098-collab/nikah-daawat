@@ -714,7 +714,7 @@ export default function NikkahInvitation() {
                   </p>
                   <p style={{ fontFamily:"'Amiri',serif", fontSize:"clamp(13px,3.5vw,16px)",
                               color:TEXT_MID, margin:0, opacity:0.7, direction:"rtl" }}>
-                    ١٤ شعبان ١٤٤٧ هـ
+                    ٢١ رمضان ١٤٤٧ هـ
                   </p>
                 </div>
 
