@@ -484,14 +484,19 @@ export default function NikkahInvitation() {
                           margin:"0 0 8px 0", opacity:0.8 }}>
                 Nikkah Invitation
               </p>
-              <div style={{ fontFamily:"'Playfair Display',serif", fontSize:"clamp(14px,4.5vw,20px)", fontWeight:"700",
+              <div style={{ textAlign:"center", lineHeight:1.5, margin:0 }}>
+                <span style={{ display:"block", fontFamily:"'Playfair Display',serif", fontSize:"clamp(14px,4.5vw,20px)", fontWeight:"700",
                           background:`linear-gradient(90deg, ${GOLD_DARK}, ${GOLD_RICH}, ${GOLD_LIGHT}, ${GOLD_RICH}, ${GOLD_DARK})`,
                           backgroundSize:"200% auto",
                           WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", backgroundClip:"text",
-                          animation:"shimmer 3s linear infinite", margin:0, lineHeight:1.5 }}>
-                <span style={{ display:"block" }}>Hafiza Zainab Akram</span>
-                <span style={{ display:"block", fontSize:"clamp(12px,3.5vw,16px)", opacity:0.8 }}>&amp;</span>
-                <span style={{ display:"block" }}>Adeel Asghar</span>
+                          animation:"shimmer 3s linear infinite" }}>Hafiza Zainab Akram</span>
+                <span style={{ display:"block", fontFamily:"'Cormorant Garamond',serif", fontStyle:"italic",
+                          fontSize:"clamp(11px,3vw,14px)", color:GOLD_LIGHT, opacity:0.7, margin:"2px 0" }}>with</span>
+                <span style={{ display:"block", fontFamily:"'Playfair Display',serif", fontSize:"clamp(14px,4.5vw,20px)", fontWeight:"700",
+                          background:`linear-gradient(90deg, ${GOLD_DARK}, ${GOLD_RICH}, ${GOLD_LIGHT}, ${GOLD_RICH}, ${GOLD_DARK})`,
+                          backgroundSize:"200% auto",
+                          WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", backgroundClip:"text",
+                          animation:"shimmer 3s linear infinite" }}>Adeel Asghar</span>
               </div>
             </div>
 
